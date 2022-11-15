@@ -1,0 +1,69 @@
+* {
+    background-color: skyblue;
+}
+
+h1{
+    color: red;
+
+}
+
+
+
+* {
+    color: blue;
+}
+
+
+h1, h2, p {
+    color: red;
+  }
+
+
+#welcome{
+    color: aqua;
+}
+
+.blue.color{
+    color: blue;
+}
+
+
+div p{
+    background-color: yellow;
+}
+
+
+
+div> p{
+    background-color: red;
+}
+
+
+
+div:hover {
+    background-color: blue;
+  }
+
+  p:first-child{
+    color: aquamarine;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
