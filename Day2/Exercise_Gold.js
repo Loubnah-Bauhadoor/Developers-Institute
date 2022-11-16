@@ -9,8 +9,22 @@ console.log(joinSentence);
 //Exercise 2 : Mixup
 
 
+
+
+//exercise 2
+//let str1 = "Hello";
+//let str2 = "World";
+
+
 let str1 = "mix";
 let str2 = "pod";
+let str3 = str1;
+str1 = str2.slice(0,2) + str1.slice(2);
+str2 = str3.slice(0,2) + str2.slice(2);
+
+str3 = str1 + " " + str2;
+console.log(str3);
+
 
 //2. Slice out and swap the first 2 characters of the two strings from part 1.
 
@@ -51,6 +65,18 @@ second_number = prompt("Please enter your second number.", "40");
 let num2 = second_number
 console.log(num2);
 
+
+/**
+ * let op = prompt("Input your arithmetic operator (+, -, *, /, %)",0);
+ * switch (op) {
+ *  case "+": output = firstnum + secondnum; break;
+ *  case "-": output = firstnum - secondnum; break;
+ * case "*": output = firstnum * secondnum;break;
+ * case "%": output = firstnum % secondnum;break;
+ * case "/": output = firstnum / secondnum;break;
+ * default: alert("unrecognised operation"); break;
+ * }
+ */
 
 //Create an Alert where the value is the SUM of num1 and num2.
 
